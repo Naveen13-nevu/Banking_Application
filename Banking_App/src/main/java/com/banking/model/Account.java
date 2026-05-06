@@ -1,12 +1,14 @@
 package com.banking.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 
 @Table(name = "accounts")
 @Entity
 @Data
+@AllArgsConstructor
 public class Account {
 
     @Id
